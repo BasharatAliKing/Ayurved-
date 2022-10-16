@@ -28,6 +28,13 @@
     #service #a {
         width: 100%;
     }
+    #service #a img{
+        width: 100%;
+    }
+    #service #a h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
     #service .container #a #x {
         display: inline;
     }
