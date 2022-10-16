@@ -38,7 +38,7 @@
         margin-top: -20px;
     }
 
-    #home .home-h3  {
+    #home .home-h3 {
         font-size: 20px;
         margin-top: 120px;
     }
@@ -55,7 +55,7 @@
 
     #service {
         display: inline-block;
-        margin-top:60px;
+        margin-top: 70px;
     }
 
     #service .container {
@@ -102,6 +102,10 @@
 
     #nature {
         padding: 0px 10px;
+    }
+
+    #nature h2 {
+        font-size: 35px;
     }
 
     #nature #card {
@@ -173,10 +177,12 @@
         margin-left: 200px;
         width: 40%;
     }
+
     #works #b #box i {
         padding: 6px 8px;
 
     }
+
     #works #a img {
         width: 100%;
         margin-top: 250px;
@@ -191,27 +197,33 @@
     #watch {
         display: inline;
         padding: 0px 10px;
-       margin-top: 30px;
+        margin-top: 30px;
     }
-    #watch #a{
+
+    #watch #a {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     #watch #a .card {
         width: 95%;
         padding: 10px;
         border-radius: 10px;
         margin: 10px;
     }
-    #watch #a .card img{
+
+    #watch #a .card img {
         margin-top: 30px;
     }
-    #watch h3{
+
+    #watch h3 {
         margin-top: 20px;
     }
+
     #watch #b .text {
         margin-top: -320px;
     }
+
     #product h2 {
         margin: 0px 0px;
         font-size: 35px;
@@ -239,9 +251,11 @@
         margin-left: 45px;
         padding: 40px;
     }
-#offer{
-    padding: 0px 10px;
-}
+
+    #offer {
+        padding: 0px 10px;
+    }
+
     #offer .container {
         display: inline;
     }
@@ -249,16 +263,20 @@
     #offer #a {
         width: 100%;
     }
+
     #offer .card .x1 {
         padding: 18px 10px;
     }
+
     #offer .card .x1 .y h4 {
         font-size: 16px;
         letter-spacing: 1px;
     }
+
     #offer .card .x1 .y h2 {
         font-size: 30px;
     }
+
     #offer .card .x1 .y h3 {
         font-size: 20px;
     }
@@ -273,13 +291,16 @@
         margin-left: 0px;
         width: 100%;
     }
+
     #offer #b h2 {
         font-size: 33px;
     }
+
     #offer #b h2 {
         margin-top: 10px;
         font-size: 35px;
     }
+
     #offer #b #card {
         width: 100%;
     }
@@ -291,22 +312,27 @@
     #offer .card .x1 .y {
         width: 45%;
     }
+
     #offer .card .x1 .y .btn {
-      font-weight: 500;
+        font-weight: 500;
     }
+
     #blog {
         padding: 0px 10px;
         margin-top: 40px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     #blog .container {
         display: inline;
     }
+
     #blog #a h2 {
         font-size: 35px;
         margin-top: 5px;
     }
+
     #blog #a .btn {
         margin-top: 20px;
     }
@@ -323,14 +349,17 @@
     #blog .card img {
         width: 100%;
     }
-#footer h2{
-    font-size: 35px;
-    line-height: 40px;
-}
-#footer .email {
-    display: inline-block;
-    width: 100%;
-}
+
+    #footer h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    #footer .email {
+        display: inline-block;
+        width: 100%;
+    }
+
     #footer .ayurved {
         display: inline;
         margin-top: 50px;
