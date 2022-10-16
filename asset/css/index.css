@@ -6,6 +6,12 @@
 #header #right ul li a .active{
     color: #4d8f84;
 }
+#header #sm-btn{
+    display: none;
+}
+#header #right-top{
+    display: none;
+}
 h1{
     font-size: 70px;
     margin: 0px;

@@ -15,15 +15,117 @@
     #header .container {
         margin-top: 15px;
     }
-
-    #header .right {
-        display: none;
+    #header #sm-btn{
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        display: inline;
+        /* border: 1px solid black; */
+        width: 10%;
+    }
+    #header #sm-btn .line{
+        border-bottom: 4px solid black;
+        width: 100%;
+        height: 10%;
+        margin-top: 5px;
+    }
+    #header #right {
+        display: inline;
+    }
+    #upper #right ul li{
+        display: flex;
+        margin-top: 5px;
+    }
+    #upper #right ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+    }
+    #upper #right ul li i{
+        color: white;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    #upper{
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 80%;
+        top: 80px;
+        background-color: #4d8f8496;
+    }
+    #upper ul li #pages-in{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        margin-top: 40px;
+        margin-left: -10px;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    #upper ul li #pages-in li{
+        margin: 0px;
+    }
+    #upper ul li #pages-in li a{
+        margin: 0px;
+        color: black;
+        width: 100%;
+        padding: 10px;
+        padding-right: 68px;
+    }
+    #upper ul li #pages-in li a:hover{
+        background-color: #4d8f84;
+        color: white;
+    }
+    #upper ul li #blogs-in{
+        position: absolute;
+        z-index: 1;
+        margin-top: 40px;
+        margin-left: -10px;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    #upper ul li #blogs-in li{
+        margin: 0px;
+    }
+    #upper ul li #blogs-in li a{
+        margin: 0px;
+        color: black;
+        padding: 10px;
+        padding-right: 68px;
+    }
+    #upper ul li #blogs-in li a:hover{
+        background-color: #4d8f84;
+        color: white;
+    }
+    #upper ul li #contact-in{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        margin-top: 40px;
+        margin-left: -10px;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    #upper ul li #contact-in li{
+        margin: 0px;
+    }
+    #upper ul li #contact-in li a{
+        margin: 0px;
+        color: black;
+        width: 100%;
+        padding: 10px;
+        padding-right: 40px;
+    }
+    #upper ul li #contact-in li a:hover{
+        background-color: #4d8f84;
+        color: white;
     }
 
     #header #right ul {
         display: none;
     }
-
     #home {
         margin-top: 0px;
         width: 100%;
