@@ -124,6 +124,12 @@
         margin-left: 10px;
         width: 100%;
     }
+    #offer .card .x1 .z {
+        width: 55%;
+    }
+    #offer .card .x1 .y {
+        width: 45%;
+    }
     #blog .container {
         display: inline;
     }
