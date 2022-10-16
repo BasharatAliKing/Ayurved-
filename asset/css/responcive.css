@@ -136,6 +136,9 @@
     #blog .container {
         display: inline;
     }
+    #blog #b .card{
+        width: 95%;
+    }
     #blog .card {
         margin-left: 10px;
     }
