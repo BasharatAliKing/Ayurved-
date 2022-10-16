@@ -366,20 +366,21 @@
     }
 
     #footer .ayurved #a {
-        width: 100%;
+        width: 90%;
+        margin-left: 20px;
         margin-top: 20px;
     }
 
     #footer .ayurved #b {
-        width: 100%;
+        width: 90%;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     #footer .ayurved #c {
-        width: 100%;
+        width: 90%;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
 }
