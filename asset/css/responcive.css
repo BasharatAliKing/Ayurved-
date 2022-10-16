@@ -1,0 +1,111 @@
+@media(max-width:596px) {
+    #header .right {
+        display: none;
+    }
+    #header #right ul {
+        display: none;
+    }
+    #service {
+        display: inline-block;
+    }
+#service .container{
+    display: inline;
+}
+    #service #a {
+        width: 100%;
+    }
+    #service .container #a #x {
+        display: inline;
+    }
+    #service .container #a #y {
+        display: inline;
+    }
+    #service #b {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    #nature .container {
+        display: inline;
+    }
+    #nature #card {
+        width: 100%;
+    }
+    #nature .container #b img {
+        width: 100%;
+    }
+
+    #nature #b .leaf-upper {
+        position: absolute;
+        z-index: 1;
+        margin-top: 330px;
+        margin-left: -70px;
+        width: 40%;
+    }
+
+    #feature #cards {
+        display: inline;
+    }
+
+    #feature #cards .card-0 {
+        width: 90%;
+    }
+
+    #works .container {
+        display: inline;
+    }
+    #works #a img{
+        width: 100%;
+    }
+    #watch {
+        display: inline;
+    }
+
+    #product h2 {
+        margin: 0px 25px;
+    }
+
+    #product #cards #x {
+        display: inline;
+    }
+
+    #product #cards #y {
+        display: inline;
+    }
+
+    #product #cards #x .card-0 {
+        width: 90%;
+    }
+    #product #cards #y .card-0 {
+        width: 90%;
+    }
+    #offer .container {
+        display: inline;
+    }
+    #offer #a {
+        width: 100%;
+    }
+    #offer #b {
+        margin-left: 60px;
+        width: 100%;
+    }
+    #blog .container {
+        display: inline;
+    }
+    #footer .ayurved {
+        display: inline;
+        margin-top: 50px;
+    }
+    #footer .ayurved #a {
+        width: 90%;
+    }
+    #footer .ayurved #b {
+        width: 90%;
+        margin-left: 0px;
+    }
+    #footer .ayurved #c {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+}
