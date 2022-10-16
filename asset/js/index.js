@@ -65,6 +65,15 @@ function smclick(e){
     console.log("Clicked....");
     var upper=document.getElementById("upper");
     var right=document.getElementById("right");
-    upper.appendChild(right);
-    console.log(upper);
+    if(upper.className=="on"){
+        right.remove();
+        upper.className="off";
+    }
+    else{
+        upper.appendChild(right);
+        upper.className="on";
+    }
+   
+   
+    // console.log(upper);
 }
