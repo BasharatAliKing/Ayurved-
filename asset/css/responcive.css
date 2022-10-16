@@ -68,6 +68,14 @@
     #works .container {
         display: inline;
     }
+    #works #b {
+        width: 95%;
+        margin-top: 50px;
+    }
+    #works #b #help {
+        margin-top: -160px;
+        margin-left: 250px;
+    }
     #works #a img{
         width: 100%;
     }
@@ -101,6 +109,9 @@
         display: inline;
     }
     #offer #a {
+        width: 100%;
+    }
+    #offer .card .x1 .z img{
         width: 100%;
     }
     #offer #b {
