@@ -43,19 +43,20 @@
         display: inline;
     }
     #nature #card {
-        width: 100%;
+        width: 95%;
     }
     #nature .container #b img {
-        width: 100%;
+        width:90%;
     }
 
-    #nature #b .leaf-upper {
+    #nature .container #b .leaf-upper {
         position: absolute;
         z-index: 1;
-        margin-top: 330px;
-        margin-left: -70px;
-        width: 40%;
+        margin-top: 230px;
+        margin-left: 10px;
+        width: 30%;
     }
+
 
     #feature #cards {
         display: inline;
@@ -86,7 +87,12 @@
     #watch {
         display: inline;
     }
-
+    #watch #a .card {
+        width: 95%;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px ;
+    }
     #product h2 {
         margin: 0px 25px;
     }
@@ -120,6 +126,12 @@
     }
     #blog .container {
         display: inline;
+    }
+    #blog .card {
+        margin-left: 10px;
+    }
+    #blog .card img{
+        width: 100%;
     }
     #footer .ayurved {
         display: inline;
