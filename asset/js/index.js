@@ -5,6 +5,8 @@ var pagein=document.getElementById("pages-in");
 var blogin=document.getElementById("blogs-in");
 var contactin=document.getElementById("contact-in");
 var smline=document.getElementById("sm-btn");
+var upper=document.getElementById("upper");
+var right=document.getElementById("right");
 pagein.remove();
 blogin.remove();
 contactin.remove();
@@ -63,15 +65,14 @@ function carousel() {
 function smclick(e){
     e.preventDefault();
     console.log("Clicked....");
-    var upper=document.getElementById("upper");
-    var right=document.getElementById("right");
-    if(upper.className=="on"){
+  
+    if(upper.className=="off"){
         right.remove();
-        upper.className="off";
+        upper.className=" ";
     }
     else{
         upper.appendChild(right);
-        upper.className="on";
+        upper.className="off";
     }
    
    
