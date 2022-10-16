@@ -55,7 +55,7 @@
 
     #service {
         display: inline-block;
-        margin-top: 100px;
+        margin-top:60px;
     }
 
     #service .container {
@@ -173,7 +173,10 @@
         margin-left: 200px;
         width: 40%;
     }
+    #works #b #box i {
+        padding: 6px 8px;
 
+    }
     #works #a img {
         width: 100%;
         margin-top: 250px;
