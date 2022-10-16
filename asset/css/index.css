@@ -164,8 +164,9 @@ p{
     font-size: 50px;
     font-weight: 900;
  }
- #home p{
+ #home .para {
     color: white;
+    width: 30%;
  }
  #home .container #h-tags{
      color: white;

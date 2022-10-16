@@ -2,126 +2,217 @@
     .container {
         margin: 10px;
     }
-    #header .left img{
-        width: 50%;
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 17px;
     }
-    #header .container{
+
+    #header .container .left img {
+        width: 40%;
+    }
+
+    #header .container {
         margin-top: 15px;
     }
+
     #header .right {
         display: none;
     }
+
     #header #right ul {
         display: none;
     }
-    #home{
+
+    #home {
         margin-top: 0px;
         width: 100%;
-       height: 70%;
+        height: 70%;
     }
-    #home h1{
+
+    #home h1 {
         margin-top: -20px;
     }
-    #home h2{
+
+    #home h2 {
         margin-top: -20px;
     }
-    #home h3{
+
+    #home .home-h3 h3 {
         font-size: 20px;
         margin-top: 120px;
     }
-    #home p{
+
+    #home .para {
+        width: 100%;
         margin-top: 10px;
     }
+
     #home .container #h-tags {
         color: white;
         margin-top: 40px;
     }
+
     #service {
         display: inline-block;
         margin-top: 30px;
     }
-#service .container{
-    display: inline;
-}
+
+    #service .container {
+        display: inline;
+    }
+
     #service .container #a {
         width: 95%;
         margin-left: 10px;
         margin-right: 0px;
     }
-    #service .container #a img{
+
+    #service .container #a img {
         width: 80%;
     }
+
     #service #a h4 {
         font-size: 22px;
         font-weight: 600;
     }
+
     #service .container #a #x {
         display: inline;
     }
+
     #service .container #a #y {
         display: inline;
     }
+
     #service #b {
         width: 100%;
-        margin-left: 15px;
+        margin-left: 0px;
+    }
+
+    #service #b h2 {
+        font-size: 35px;
+        margin-top: 5px;
     }
 
     #nature .container {
         display: inline;
+
     }
+
+    #nature {
+        padding: 0px 10px;
+    }
+
     #nature #card {
-        width: 95%;
+        width: 100%;
     }
+
     #nature .container #b img {
-        width:90%;
+        width: 100%;
     }
 
     #nature .container #b .leaf-upper {
         position: absolute;
         z-index: 1;
-        margin-top: 230px;
-        margin-left: 10px;
-        width: 30%;
+        margin-top: 240px;
+        margin-left: -20px;
+        width: 25%;
     }
 
+    #feature h2 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
 
     #feature #cards {
         display: inline;
     }
 
     #feature #cards .card-0 {
-        width: 90%;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    #feature #cards p {
+        color: white;
+    }
+
+    #works {
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+
+    #works h3 {
+        margin-top: 0px;
+    }
+
+    #works h2 {
+        font-size: 35px;
     }
 
     #works .container {
         display: inline;
     }
+
     #works #b {
-        width: 95%;
-        margin-top: 50px;
-    }
-    #works #b #help {
-        margin-top: -160px;
-        margin-left: 250px;
-    }
-    #works #a img{
         width: 100%;
     }
+
+    #works #b ul {
+        padding-left: 0px;
+    }
+
+    #works #b #box ul li {
+        font-size: 18px;
+    }
+
+    #works #b #help {
+        margin-top: -160px;
+        margin-left: 200px;
+        width: 40%;
+    }
+
+    #works #a img {
+        width: 100%;
+        margin-top: 250px;
+        display: none;
+    }
+
     #help {
         margin-top: -160px;
         margin-left: 30px;
     }
+
     #watch {
         display: inline;
+        padding: 0px 10px;
+       margin-top: 30px;
+    }
+    #watch #a{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     #watch #a .card {
         width: 95%;
         padding: 10px;
         border-radius: 10px;
-        margin: 10px ;
+        margin: 10px;
+    }
+    #watch #a .card img{
+        margin-top: 30px;
+    }
+    #watch h3{
+        margin-top: 20px;
+    }
+    #watch #b .text {
+        margin-top: -320px;
     }
     #product h2 {
-        margin: 0px 25px;
+        margin: 0px 0px;
+        font-size: 35px;
+        line-height: 45px;
     }
 
     #product #cards #x {
@@ -133,58 +224,120 @@
     }
 
     #product #cards #x .card-0 {
-        width: 90%;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 30px;
     }
+
     #product #cards #y .card-0 {
-        width: 90%;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 30px;
     }
+#offer{
+    padding: 0px 10px;
+}
     #offer .container {
         display: inline;
     }
+
     #offer #a {
         width: 100%;
     }
-    #offer .card .x1 .z img{
+    #offer .card .x1 {
+        padding: 18px 10px;
+    }
+    #offer .card .x1 .y h4 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    #offer .card .x1 .y h2 {
+        font-size: 30px;
+    }
+    #offer .card .x1 .y h3 {
+        font-size: 20px;
+    }
+
+
+    #offer .card .x1 .z img {
+        margin-top: 40px;
         width: 100%;
     }
+
     #offer #b {
-        margin-left: 10px;
+        margin-left: 0px;
         width: 100%;
+    }
+    #offer #b h2 {
+        font-size: 33px;
+    }
+    #offer #b h2 {
+        margin-top: 10px;
+        font-size: 35px;
     }
     #offer #b #card {
-        width: 95%;
+        width: 100%;
     }
+
     #offer .card .x1 .z {
         width: 55%;
     }
+
     #offer .card .x1 .y {
         width: 45%;
+    }
+    #blog {
+        padding: 0px 10px;
+        margin-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     #blog .container {
         display: inline;
     }
-    #blog #b .card{
-        width: 95%;
+    #blog #a .btn {
+        margin-top: 20px;
     }
+
+    #blog #b .card {
+        width: 100%;
+        margin-top: 30px;
+    }
+
     #blog .card {
-        margin-left: 10px;
+        margin-left: 0px;
     }
-    #blog .card img{
+
+    #blog .card img {
         width: 100%;
     }
+#footer h2{
+    font-size: 35px;
+    line-height: 40px;
+}
+#footer .email {
+    display: inline-block;
+    width: 100%;
+}
     #footer .ayurved {
         display: inline;
         margin-top: 50px;
     }
+
     #footer .ayurved #a {
-        width: 90%;
+        width: 100%;
+        margin-top: 20px;
     }
+
     #footer .ayurved #b {
-        width: 90%;
+        width: 100%;
+        margin-top: 20px;
         margin-left: 0px;
     }
+
     #footer .ayurved #c {
-        width: 90%;
+        width: 100%;
+        margin-top: 20px;
         margin-left: 0px;
     }
 
