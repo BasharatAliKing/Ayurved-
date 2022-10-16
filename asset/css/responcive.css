@@ -124,6 +124,9 @@
         margin-left: 10px;
         width: 100%;
     }
+    #offer #b #card {
+        width: 95%;
+    }
     #offer .card .x1 .z {
         width: 55%;
     }
